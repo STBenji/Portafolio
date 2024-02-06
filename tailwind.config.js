@@ -1,47 +1,20 @@
-/** @type {import('tailwindcss').Config} */
 import { nextui } from '@nextui-org/react'
 
-module.exports = {
-  content: ['./index.html', './src/**/*.{js,jsx}', './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
-        white: '#FFFFFF',
-        black: '#000000',
-        blue: {
-          50: '#e6f1fe',
-          100: '#cce3fd',
-          200: '#99c7fb',
-          300: '#66aaf9',
-          400: '#338ef7',
-          500: '#006FEE',
-          600: '#005bc4',
-          700: '#004493',
-          800: '#002e62',
-          900: '#001731',
-        },
-      },
-      gridTemplateColumns: {
-        '2-50-50': ' 50% 50%',
-        '6-column-table': '1fr 3fr 1fr 1fr 2fr 1fr',
-        '2-column-table': '1fr, .8fr ',
+        default: '#0D4338',
+        secondary: '#0A342A',
+        terciary: '#07261C',
+        fourth: '#03170E',
+        fifth: '#f5f5f5',
+        sixth: '#000800',
+        lighter: '#428582',
       },
     },
   },
-  variants: {
-    borderWidth: ['responsive', 'hover', 'focus'],
-  },
-  darkMode: 'class',
-  plugins: [
-    nextui({
-      layout: {
-        fontSize: {
-          tiny: '0.75rem', // text-tiny
-          small: '0.875rem', // text-small
-          medium: '1rem', // text-medium
-          large: '1.125rem', // text-large
-        },
-      },
-    }),
-  ],
+  plugins: [nextui()],
 }
