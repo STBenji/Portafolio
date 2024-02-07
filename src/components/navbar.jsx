@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, NavbarMenuToggle, NavbarMenuItem, NavbarMenu } from '@nextui-org/react'
+import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Image, NavbarMenuToggle, NavbarMenuItem, NavbarMenu } from '@nextui-org/react'
 
 export const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -11,7 +11,7 @@ export const NavbarComponent = () => {
       <NavbarContent>
         <NavbarMenuToggle aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} className="sm:hidden" />
         <NavbarBrand>
-          <p className="text-xl font-bold">Benji</p>
+          <Image src="/icon.png" width={130} />
         </NavbarBrand>
       </NavbarContent>
 
