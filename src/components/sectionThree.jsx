@@ -9,7 +9,7 @@ export const SectionThree = () => {
         alt: 'Imagen del proyecto SorcenPX.',
       },
       title: 'SorcenPx',
-      github: 'https://github.com/STBenji',
+      github: 'https://github.com/STBenji/SorcenPX-frontEnd',
       link: null,
     },
     {
@@ -18,7 +18,7 @@ export const SectionThree = () => {
         alt: 'Imagen del proyecto Aguas de Sincé.',
       },
       title: 'Aguas de Sincé',
-      github: 'https://github.com/STBenji',
+      github: 'https://github.com/STBenji/aguas-de-since',
       link: 'https://aguasdesince.com.co/',
     },
     {
@@ -27,7 +27,7 @@ export const SectionThree = () => {
         alt: 'Imagen del proyecto Siscomite.',
       },
       title: 'Siscomite',
-      github: 'https://github.com/STBenji',
+      github: 'https://github.com/STBenji/Siscomite',
       link: null,
     },
     // {
