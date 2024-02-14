@@ -23,11 +23,6 @@ export const NavbarComponent = () => {
           </Link>
         </NavbarItem>
         <NavbarItem className="cursor-pointer">
-          <Link to="Tecnologias" spy={true} smooth={true} duration={400}>
-            Tecnologías
-          </Link>
-        </NavbarItem>
-        <NavbarItem className="cursor-pointer">
           <Link to="Proyectos" spy={true} smooth={true} duration={400}>
             Proyectos
           </Link>
@@ -35,6 +30,11 @@ export const NavbarComponent = () => {
         <NavbarItem className="cursor-pointer">
           <Link to="Experiencia" spy={true} smooth={true} duration={400}>
             Experiencia
+          </Link>
+        </NavbarItem>
+        <NavbarItem className="cursor-pointer">
+          <Link to="Tecnologias" spy={true} smooth={true} duration={400}>
+            Tecnologías
           </Link>
         </NavbarItem>
         <NavbarItem className="cursor-pointer">

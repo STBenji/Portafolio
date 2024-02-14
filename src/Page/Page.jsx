@@ -13,14 +13,14 @@ export default function PortfolioPage() {
       <Element name="Inicio">
         <NavbarComponent />
         <SectionOne />
-        <Element name="Tecnologias">
-          <SectionTwo />
-        </Element>
         <Element name="Proyectos">
           <SectionThree />
         </Element>
         <Element name="Experiencia">
           <SectionFive />
+        </Element>
+        <Element name="Tecnologias">
+          <SectionTwo />
         </Element>
         <Element name="Contactame">
           <SectionFour />
