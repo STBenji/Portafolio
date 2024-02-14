@@ -11,7 +11,7 @@ export const NavbarComponent = () => {
       <NavbarContent>
         <NavbarMenuToggle aria-label={isMenuOpen ? 'Close menu' : 'Open menu'} className="sm:hidden" />
         <NavbarBrand>
-          <Image src="/icon.png" width={130} />
+          <Image src="/icon.png" width={130} loading='lazy'/>
         </NavbarBrand>
       </NavbarContent>
 
