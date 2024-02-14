@@ -6,7 +6,7 @@ import { TbBrandReactNative } from 'react-icons/tb'
 
 export const SectionTwo = () => {
   return (
-    <section className="flex flex-col items-center p-14 h-fulls md:justify-center ">
+    <section className="flex flex-col items-center h-screen p-14 md:justify-center">
       <h2 className="text-3xl font-bold md:text-4xl text-lighter">Tecnologías</h2>
       <article className="flex flex-wrap justify-center gap-8 mt-20">
         <div className="flex flex-col items-center space-y-4 hover:text-[#61DAFB]">
