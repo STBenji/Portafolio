@@ -1,4 +1,5 @@
 import { NavbarComponent } from '../components/navbar'
+import { SectionFive } from '../components/sectionFive'
 import { SectionFour } from '../components/sectionFour'
 import { SectionOne } from '../components/sectionOne'
 import { SectionThree } from '../components/sectionThree'
@@ -17,6 +18,9 @@ export default function PortfolioPage() {
         </Element>
         <Element name="Proyectos">
           <SectionThree />
+        </Element>
+        <Element name="Experiencia">
+          <SectionFive />
         </Element>
         <Element name="Contactame">
           <SectionFour />

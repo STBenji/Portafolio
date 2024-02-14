@@ -22,7 +22,7 @@ export const SectionOne = () => {
             <CiLinkedin />
           </Button>
 
-          <Button className="text-white bg-transparent hover:bg-lighter" variant="bordered">
+          <Button className="text-white bg-transparent hover:bg-lighter" variant="bordered" as={Link} href="https://stbenji.netlify.app/Guillermo_Stiven_Benjumea_Morales.pdf">
             Ver HV
           </Button>
         </div>

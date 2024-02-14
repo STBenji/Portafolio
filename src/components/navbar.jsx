@@ -5,7 +5,7 @@ import { Link } from 'react-scroll'
 export const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const menuItems = ['Inicio', 'Tecnologias', 'Proyectos', 'Contactame']
+  const menuItems = ['Inicio', 'Tecnologias', 'Proyectos', 'Experiencia', 'Contactame']
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-transparent border-b ">
@@ -30,6 +30,11 @@ export const NavbarComponent = () => {
         <NavbarItem className="cursor-pointer">
           <Link to="Proyectos" spy={true} smooth={true} duration={400}>
             Proyectos
+          </Link>
+        </NavbarItem>
+        <NavbarItem className="cursor-pointer">
+          <Link to="Experiencia" spy={true} smooth={true} duration={400}>
+            Experiencia
           </Link>
         </NavbarItem>
         <NavbarItem className="cursor-pointer">

@@ -34,51 +34,6 @@ export const SectionThree = () => {
       github: 'https://github.com/STBenji/Siscomite',
       link: null,
     },
-    {
-      image: {
-        url: './siscomite.png',
-        alt: 'Imagen del proyecto Siscomite.',
-      },
-      title: 'Siscomite',
-      github: 'https://github.com/STBenji',
-      link: null,
-    },
-    {
-      image: {
-        url: './siscomite.png',
-        alt: 'Imagen del proyecto Siscomite.',
-      },
-      title: 'Siscomite',
-      github: 'https://github.com/STBenji',
-      link: null,
-    },
-    {
-      image: {
-        url: './siscomite.png',
-        alt: 'Imagen del proyecto Siscomite.',
-      },
-      title: 'Siscomite',
-      github: 'https://github.com/STBenji',
-      link: null,
-    },
-    {
-      image: {
-        url: './siscomite.png',
-        alt: 'Imagen del proyecto Siscomite.',
-      },
-      title: 'Siscomite',
-      github: 'https://github.com/STBenji',
-      link: null,
-    },
-    {
-      image: {
-        url: './siscomite.png',
-        alt: 'Imagen del proyecto Siscomite.',
-      },
-      title: 'Siscomite',
-      github: 'https://github.com/STBenji',
-      link: null,
-    },
   ]
 
   const showProjects = () => {
