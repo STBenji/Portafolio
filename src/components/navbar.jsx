@@ -47,8 +47,8 @@ export const NavbarComponent = () => {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link className="w-full text-white" to={item} spy={true} smooth={true} duration={400}>
-            {item}
-          </Link>
+              {item}
+            </Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>

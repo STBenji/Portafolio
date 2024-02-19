@@ -5,8 +5,8 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 export const SectionOne = () => {
   return (
-    <section className="flex justify-center h-full">
-      <header className="mt-[7rem] flex flex-col items-center gap-[16px] text-center relative">
+    <section className="flex flex-col items-center justify-center h-full gap-[7rem]">
+      <header className="mt-[7rem] flex flex-col items-center gap-[16px] text-center">
         <img src="imagePersonal.jpg" alt="" className="object-cover w-32 h-32 rounded-full" loading="lazy" />
         <h1 className="text-2xl font-bold md:text-5xl">¡¡Hola👋!! Mi nombre es Stiven.</h1>
         <h2 className="text-xl font-semibold tracking-wide md:text-3xl">
@@ -27,7 +27,7 @@ export const SectionOne = () => {
           </Button>
         </div>
       </header>
-      <div className="absolute text-3xl bottom-6 animate-bounce">
+      <div className="text-3xl animate-bounce">
         <IoIosArrowDown />
       </div>
     </section>
