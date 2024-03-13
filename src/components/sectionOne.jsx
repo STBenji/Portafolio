@@ -22,7 +22,7 @@ export const SectionOne = () => {
           <Button className="bg-secondary hover:bg-lighter text-[2.4ch] text-white" href="https://github.com/STBenji" target="_blank" isIconOnly as={Link} data-aos="fade-up">
             <FaGithub />
           </Button>
-          <Button className="text-white bg-secondary hover:bg-lighter text-[2.5ch]" isIconOnly href="https://www.linkedin.com/in/stiven-benjumea-morales-53639823a/" target="_blank" as={Link} data-aos="fade-up" data-aos-delay="100">
+          <Button className="text-white bg-secondary hover:bg-lighter text-[2.5ch]" isIconOnly href="https://www.linkedin.com/in/stivenbm/" target="_blank" as={Link} data-aos="fade-up" data-aos-delay="100">
             <CiLinkedin />
           </Button>
 

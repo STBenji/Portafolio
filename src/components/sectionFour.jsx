@@ -17,7 +17,7 @@ export const SectionFour = () => {
         </div>
         <div className="flex items-center justify-center gap-2">
           <FaLinkedin />
-          <a href="https://www.linkedin.com/in/stiven-benjumea-morales-53639823a/" target="_blank" className="underline hover:text-lighter">
+          <a href="https://www.linkedin.com/in/stivenbm/" target="_blank" className="underline hover:text-lighter">
             Stiven Benjumea Morales
           </a>
         </div>
