@@ -44,7 +44,7 @@ export const SectionFive = () => {
             <li className="mb-10 ms-6" data-aos="fade-left">
               <span className="absolute flex items-center justify-center w-4 h-4 bg-green-800 rounded-full -start-8 ring-4 ring-gray-900"></span>
               <h3 className="flex items-center mb-1 text-lg font-semibold text-white ">Desarrollador Front end</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">nov 2023 - ene 2024</time>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400 ">nov 2023 - mar 2024</time>
               <p className="mb-4 text-base font-normal text-gray-400 ">Aguas de Sincé</p>
             </li>
           </ol>
